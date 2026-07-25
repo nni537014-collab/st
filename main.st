@@ -3,7 +3,7 @@ var_input
     run: bool;
 end_var
 var_output
-    inverted: bool = true;
+    inverted: bool := true;
 end_var
 
 if run then
