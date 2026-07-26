@@ -8,11 +8,11 @@ END_TYPE
 
 TYPE BallColour :
     (
-        RED;
-        YELLOW;
-        WHITE;
+        RED,
+        YELLOW,
+        WHITE,
         BLACK
-    ) uint;
+    );
                        
 END_TYPE
 TYPE BallPoint :
