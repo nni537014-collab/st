@@ -82,5 +82,19 @@ function_block createPositions
    
    positions[14].point.X := positions[12].point.X + radius;
    positions[14].point.Y := positions[12].point.Y + radius * YMulti;
-   
+   positions[0].colour := BallColour.RED;
+   positions[1].colour := BallColour.YELLOW;
+   positions[2].colour := BallColour.RED ;
+   positions[3].colour := BallColour.YELLOW ;
+   positions[4].colour := BallColour.YELLOW ;
+   positions[5].colour := BallColour.YELLOW;
+   positions[6].colour := BallColour.RED ;
+   positions[7].colour := BallColour.YELLOW ;
+   positions[8].colour := BallColour.RED ;
+   positions[9].colour := BallColour.RED ;
+   positions[10].colour := BallColour.BLACK ;
+   positions[11].colour := BallColour.YELLOW ;
+   positions[12].colour := BallColour.YELLOW ;
+   positions[13].colour := BallColour.RED ;
+   positions[14].colour := BallColour.RED ;
 end_function_block
