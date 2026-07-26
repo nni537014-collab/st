@@ -57,4 +57,9 @@ function_block createPositions
    positions[10].Y := positions[9].Y
    positions[11].X := positions[10].X + XAdd;
    positions[11].Y := positions[9].Y
+
+   positions[12].X := positions[9].X + radius;
+   positions[12].Y := positions[9].Y + radius * YMulti;
+   positions[13].X := positions[12].X + XAdd;
+   positions[13].Y := positions[12].Y    
 end_function_block
