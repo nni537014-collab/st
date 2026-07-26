@@ -8,7 +8,7 @@ function_block CreatePositions
    end_var
    var
       YMulti : LREAL;
-      XAdd: LREAL
+      XAdd: LREAL;
    end_var
    YMulti := TAN(60);
    XAdd := 2 * Radius;
