@@ -18,6 +18,22 @@ TYPE Point :
     END_STRUCT
 END_TYPE
 
+TYPE BallColour
+    (
+        RED;
+        YELLOW;
+        WHITE;
+        BLACK
+    ) uint;
+                       
+END_TYPE
+TYPE BallPoint :
+    STRUCT
+        point : Point;
+        colour : BallColour;
+    END_STRUCT
+END_TYPE
+
 function_block createPositions
    var_input
        radius : lreal;
@@ -62,4 +78,8 @@ function_block createPositions
    positions[12].Y := positions[9].Y + radius * YMulti;
    positions[13].X := positions[12].X + XAdd;
    positions[13].Y := positions[12].Y    
+   
+   positions[14].X := positions[12].X + radius;
+   positions[14].Y := positions[12].Y + radius * YMulti;
+   
 end_function_block
