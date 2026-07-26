@@ -6,7 +6,7 @@ TYPE Point :
     END_STRUCT
 END_TYPE
 
-TYPE BallColour
+TYPE BallColour :
     (
         RED;
         YELLOW;
