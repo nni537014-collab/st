@@ -10,7 +10,7 @@ function_block CreatePositions
       YMulti : LREAL;
       XAdd: LREAL;
    end_var
-   YMulti := TAN(60);
+   YMulti := TAN(60.0);
    XAdd := 2 * Radius;
    positions[0].point.X := 0;
    positions[0].point.Y := 0;
