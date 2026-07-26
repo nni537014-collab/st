@@ -4,7 +4,7 @@ function_block CreatePositions
    end_var
    var_output
        //positions : Array[0..14] of Point;
-       positions: Array[0..14] of BallPoint
+       positions: Array[0..14] of BallPoint;
    end_var
    var
       YMulti : LREAL;
